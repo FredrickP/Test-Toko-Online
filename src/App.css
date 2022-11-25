@@ -1,0 +1,133 @@
+html, body {
+    background-color: aliceblue;
+}
+
+.app-background {
+    height: 100%;
+}
+
+
+
+.app-product-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.app-product-list {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+.app-cart-list {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+.app-cart-list .image {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.app-product-item .card {
+    margin: 5px;
+}
+
+.app-product-item .card .thumbnail {
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.app-cart-item {
+    margin-bottom: 15px;
+}
+
+.app-cart-item .app-cart-item-info {
+    height: 40px;
+    margin-left: 10px;
+}
+
+.app-product-item .card .title,
+.app-cart-item .app-cart-item-info .title {
+    font-size: 12px;
+    width: 100%;
+    color: green;
+    overflow-x: hidden;
+    font-weight: bold;
+    max-lines: 2;
+    margin-bottom: 8px;
+}
+
+.quantity {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.increase-quantity,
+.decrease-quantity {
+    padding: 4px;
+}
+
+.app-product-item .card .price,
+.app-cart-item .app-cart-item-info .price {
+    font-size: 14px;
+    width: 100%;
+    color: rgb(26, 31, 26);
+    overflow-x: hidden;
+    font-weight: bold;
+    max-lines: 2;
+    margin-bottom: 8px;
+}
+
+.app-login-form {
+    margin: 15px;
+}
+
+.loader {
+    width: 40px;
+    height: 40px;
+    border: 5px solid rgb(222, 248, 222);
+    border-top: 5px solid green;
+}
+
+.dialog {
+    background-color: rgba(15, 14, 14, 0.432);
+}
+
+.app-dialog-content {
+    min-width: 280px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.app-purchase-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-purchase-list .purchase-item {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.topnav-item {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    user-select: none;
+}
+
+.topnav-item.active {
+    color: blueviolet;
+    border-bottom: 1px solid blueviolet;
+}
